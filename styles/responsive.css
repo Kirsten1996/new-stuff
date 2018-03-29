@@ -1,0 +1,223 @@
+@media all and (min-width: 320px) {
+
+  header {
+    position: fixed;
+    top: 0;
+    height: 19%;
+    z-index: 100;
+  }
+
+  .topnav a {
+    display: none;
+  }
+
+  .topnav a.icon {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  h1 {
+    font-size: 360%;
+  }
+
+  .parallax {
+    background-image: url("https://images.pexels.com/photos/259447/pexels-photo-259447.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .wrapper > img, h5 {
+    margin: 1em 0;
+  }
+
+  .about-info {
+    text-align: justify;
+    font-size: 90%;
+    padding: 0 1em;
+  }
+
+  .wrap {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    opacity: 0.7;
+  }
+
+  .wrap > img {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .wrap > p {
+    color: white;
+    padding: 0 0 1em 2em;
+  }
+
+  button {
+    width: 40%;
+    height: 15%;
+    border: 5px solid white;
+    opacity: 1;
+    background: black;
+    color: white;
+    margin: 0 auto;
+    display: block;
+  }
+
+  button:hover {
+    background: white;
+    color: black;
+  }
+
+  h3 {
+    font-size: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 1em;
+  }
+
+  footer {
+    width: 100%;
+  }
+
+  footer .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .details {
+    width: 100%;
+  }
+
+  .details > img {
+    width: 310px;
+    height: 78px;
+  }
+
+  .social {
+    width: 100%;
+    height: 150px;
+  }
+
+  iframe {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+@media all and (min-width: 320px) {
+
+  .topnav .responsive {
+    position: relative; 
+  }
+
+  .topnav .responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav .responsive a {
+    display: block;
+    text-align: left;
+  }
+
+}
+
+@media all and (min-width: 1050px) {
+
+  header {
+    position: fixed;
+    height: 10%;
+    top: 0;
+  }
+
+  .topnav > img {
+    justify-content: flex-start;
+  }
+
+  .topnav a {
+    display: inline-block;
+  }
+
+  .topnav a.icon {
+    display: none;
+    justify-content: flex-end;
+  }
+
+  .parallax {
+    background-image: url("https://images.pexels.com/photos/259447/pexels-photo-259447.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 670px;
+    margin-bottom: 1em;
+  }
+
+  .wrapper {
+    flex-direction: row;
+  }
+
+  
+  .wrap {
+    width: 80%;
+    height: 300px;
+    background-color: black;
+    margin: auto;
+  }
+
+  button {
+    width: 20%;
+    height: 16%;
+    border: 3px solid white;
+    opacity: 1;
+    background: black;
+    color: white;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .wrap > p {
+    color: white;
+    padding: 0 12em;
+  }
+  
+  .wrap > img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  h3 {
+    font-size: 200%;
+    text-align: center;
+    color: white;
+  }
+
+  footer .container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .details {
+    border: 1px solid black;
+    height: 150px;
+    width: 37%;
+  }
+  
+  .social {
+    width: 30%;
+    border: 1px solid black;
+    height: 150px;
+  }
+  
+  iframe {
+    width: 30%;
+    height: 200px;
+  }
+
+}
